@@ -10,6 +10,9 @@ class ListMenu {
 List<ListMenu> menus = [
   const ListMenu(title: 'MENU-1', subtitle: 'SUB-1', icon: Icons.person),
   const ListMenu(title: 'MENU-2', subtitle: 'SUB-2', icon: Icons.person_add),
+  const ListMenu(title: 'MENU-3', subtitle: 'SUB-3', icon: Icons.wifi),
+  const ListMenu(title: 'Sombat', subtitle: 'SUB-4', icon: Icons.e_mobiledata),
+  const ListMenu(title: 'Rattapoom', subtitle: 'SUB-5', icon: Icons.android),
 ];
 
 class ListViewMenuPage extends StatelessWidget {

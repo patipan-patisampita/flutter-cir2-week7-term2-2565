@@ -9,6 +9,7 @@ class ListMenu {
 
 List<ListMenu> menus = [
   const ListMenu(title: 'MENU-1', subtitle: 'SUB-1', icon: Icons.person),
+  const ListMenu(title: 'MENU-2', subtitle: 'SUB-2', icon: Icons.person_add),
 ];
 
 class ListViewMenuPage extends StatelessWidget {
@@ -34,7 +35,7 @@ class ListViewMenuPage extends StatelessWidget {
                 leading: CircleAvatar(child: Icon(menus[index].icon)),
                 trailing: Icon(Icons.arrow_right),
                 onTap: () {
-                  debugPrint('MENU-1');
+                  debugPrint('${menus[index].title}');
                 });
           },
         ),
